@@ -18,7 +18,6 @@
 body {
   font-family: var(--font-family);
   color: var(--slate);
-  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -51,7 +50,6 @@ h3 {
 
 h1 {
   font-family: var(--font-family);
-  font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
@@ -167,6 +165,13 @@ button:focus {
 
 .ourteam p {
   text-align: center;
+}
+
+.gallery-list-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: left;
 }
 
 footer {
